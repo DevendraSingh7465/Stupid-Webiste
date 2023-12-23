@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #AEEBD9;
+
+}   
+h1{
+    font-size: 60px;
+    
+}
+#questionmark{
+    color: red;
+}
+
+.no{
+    height: 50px;
+    width: 100px;
+    font-weight: 900;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 3px solid green;
+    background-color: white;
+    margin-left: 5px;
+}
+.yes{
+    height: 50px;
+    width: 100px;
+    font-weight: 900;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 3px solid red;
+    background-color: white;
+    margin-right: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 20px; */
+    /* border: 1px solid black; */
+
+}
+.box1{
+    /* border: 1px solid black; */
+    text-align: right;
+
+}
+.box2{
+    /* border: 1px solid black; */
+
+}
